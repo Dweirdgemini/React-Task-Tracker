@@ -5,7 +5,7 @@ export default function Navbar() {
 Josh Navbar
 </a>
 <ul 
-    className="p-0 m-0 list-none flex gap-4 active:bg-red ">
+    className="p-0 m-0 list-none flex gap-4 hover:bg-violet-600 active:bg-violet-700 ">
   <li>
     <a href='/pricing'>Pricing</a>
   </li>
@@ -13,6 +13,10 @@ Josh Navbar
     <a href='/about'>About</a>
   </li>
 </ul>
+
+<a href='mailto:Johnsonjohnadakole@gmail.com'>
+                <h1 className='text-center  bg-black  text-white rounded-lg mx-16 p-2 font-bold animate-bounce'>SEND NUDES</h1>
+                </a>
 
 </nav>
   ) 
