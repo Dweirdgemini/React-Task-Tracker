@@ -4,7 +4,8 @@ export default function Navbar() {
 <a href='/' className="">
 Josh Navbar
 </a>
-<ul className="p-0 m-0 list-none flex gap-4">
+<ul 
+    className="p-0 m-0 list-none flex gap-4 active:bg-red ">
   <li>
     <a href='/pricing'>Pricing</a>
   </li>
