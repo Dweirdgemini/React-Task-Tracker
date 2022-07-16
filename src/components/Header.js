@@ -1,6 +1,6 @@
 export default function Navbar() {
   return(
-<nav className="bg-black text-white flex justify-between items-center gap-4 px-1 no-underline">
+<nav className="bg-black text-white flex justify-between items-center gap-4 px-1 no-underline font-DancingScript">
 <a href='/' className="">
 Josh Navbar
 </a>
@@ -9,6 +9,7 @@ Josh Navbar
   <li>
     <a href='/pricing'>Pricing</a>
   </li>
+
   <li>
     <a href='/about'>About</a>
   </li>
