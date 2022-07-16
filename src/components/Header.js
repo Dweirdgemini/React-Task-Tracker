@@ -1,13 +1,18 @@
-const Header = () => {
-  return (
-  <nav className="flex fixed w-screen">
-    <div className="flex-2 justify-center mr-auto mx-3 space-x-4 ">
-    <a href="https://pluralsight.com" className="font-DancingScript ">Home</a>
-    <a href="https://pluralsight.com" className="font-DancingScript ">Services</a>
-    </div>
-    <div></div>
-  </nav>
-  )
-}
+export default function Navbar() {
+  return(
+<nav className="bg-black text-white flex justify-between items-center gap-4 px-1 no-underline">
+<a href='/' className="">
+Josh Navbar
+</a>
+<ul className="p-0 m-0 list-none flex gap-4">
+  <li>
+    <a href='/pricing'>Pricing</a>
+  </li>
+  <li>
+    <a href='/about'>About</a>
+  </li>
+</ul>
 
-export default Header
+</nav>
+  ) 
+}
