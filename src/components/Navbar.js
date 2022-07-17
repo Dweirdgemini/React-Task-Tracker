@@ -8,7 +8,7 @@ function Navbar() {
    <>
    <div className='navbar'>
     <Link to="#" className='menu-bars'>
-        <FaIcons.FaBars/>
+        <FaIcons.FaBars />
     </Link>
    </div>
    </>
